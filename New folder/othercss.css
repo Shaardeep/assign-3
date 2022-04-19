@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  height: 80px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+}
+/* .logo {
+  margin-right: 800px;
+}
+
+.youraccount {
+  margin-left: px;
+} */
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li a {
+  padding: 40px;
+  text-decoration: none;
+  color: #ffd8db;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+ul li a:hover {
+  color: #8071d0;
+  text-decoration: underline;
+  border-bottom: #8071d0;
+}
+
+.account button {
+  background-color: #ffd8db;
+  border: #ffd8db solid 0;
+  color: #a389cc;
+  border-radius: 15px;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none;
+}
+.account button:hover {
+  transform: scale(1.1);
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 600px;
+  align-items: center;
+}
+
+.left {
+  font-family: raleway, sans-serif;
+  display: block;
+  justify-content: center;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.left h1 {
+  font-size: 50px;
+}
+
+.img-0 {
+  max-width: 600px;
+}
+.item1 {
+  margin-top: 20px;
+  display: flex;
+  height: 80px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.item1 button {
+  background-color: #5243c0;
+  border: #fff solid 0;
+  color: #ffffff;
+  border-radius: 15px;
+  font-size: 15px;
+  padding: 10px;
+  max-width: 250px;
+}
+.item1 button:hover {
+  transform: scale(1.1);
+}
+
+.item1 img {
+  width: 40px;
+}
+.item1 img:hover {
+  transform: scale(1.1);
+  color: rgb(28, 26, 26);
+}
+
+.design {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.design:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+}
+
+#dmm {
+  background-color: #fed7da;
+  border: #fed7da solid 0;
+  border-radius: 30px;
+}
+#blrr {
+  background-color: #fd6534;
+  border: #fd6534 solid 0;
+  border-radius: 30px;
+}
+#illus {
+  background-color: #9ed095;
+  border: #9ed095 solid 0;
+  border-radius: 30px;
+}
+#refunds {
+  background-color: #ffe4a0;
+  border: #ffe4a0 solid 0;
+  border-radius: 30px;
+}
+#dmm:hover {
+  background-color: #fff;
+}
+#blrr:hover {
+  background-color: #fff;
+}
+#illus:hover {
+  background-color: #fff;
+}
+#refunds:hover {
+  background-color: #fff;
+}
+
+.text-1 {
+  width: 80px;
+}
+.text-1 h2 {
+  font-size: 10px;
+}
+.text p {
+  font-size: 12px;
+  /* color: #ffd8db; */
+}
+
+#offbtn {
+  width: 30px;
+}
+
+.img-1 {
+  width: 35px;
+  height: 35px;
+  background: url("/images/tick-gray.png") no-repeat;
+  margin: 20px;
+}
+.img-1:hover {
+  background: url(/images/tick-blue.png) no-repeat;
+}
